@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HeCyla";
+  src: url("./assets/HeCyLa.ttf");
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: var(--tg-theme-bg-color);
+}
+
+
+.he-cyla {
+  font-family: "HeCyLa", monospace;
+}
